@@ -22,7 +22,7 @@ IF EXIST "%FILE_TO_CONFIRM%" (
         )
 	GOTO:EOF
     ) ELSE (
-        ECHO FILE TO DELETE NO FOUND.
+        ECHO FILE TO DELETE NOT FOUND.
         GOTO:EOF
     )
 ) ELSE (
