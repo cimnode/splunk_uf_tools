@@ -10,3 +10,5 @@ Examples of how to run the script can be found within default/inputs.conf.
 "index" must be set to a value that fits your environment.
 "interval = -1" will cause the script to run after every restart of splunkd. As such, the app should be removed after the target file is deleted.
 The script expects two parameters, the full path of a file to confirm first, followed by the full path of a file to delete.
+
+To load the app, navigate to $SPLUNK_HOME/etc/deployment-apps and clone this repository.
